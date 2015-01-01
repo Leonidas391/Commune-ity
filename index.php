@@ -1,16 +1,16 @@
-<!DOCTYPE html>
-
-	<html lang="en">
+<?php 
+	//include the header and at the bottom of the page include the footer
 	
-		<head>
-			<link href="css/bootstrap.css" rel="stylesheet" type="text/css" />
-			
-		</head>
-			<body>
-				<h1> Hello World how are you? </h1>
-			</body>
-		
-	</html>
+	include('header.php');
+	
+?>
+		<h1> Hello World how are you? </h1>
+	
 
-<?php echo "hello world"; ?>
+ <?php echo "hello world";  ?>
 
+<?php
+
+include('footer.php');
+
+?>
